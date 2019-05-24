@@ -32,11 +32,11 @@
 
 配置监控的主服务器信息。
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/cb36658c556c4ad0847e2bd0085f22f4/clipboard.png)
+![clipboard2](assets/clipboard2.png)
 
 配置密码
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/b3de7335ecf449e594b43c09ef1a47cc/clipboard.png)
+![clipboard3](assets/clipboard3.png)
 
 配置完已上信息，redis哨兵模式基本就成功了。
 

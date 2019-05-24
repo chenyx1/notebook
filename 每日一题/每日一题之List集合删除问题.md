@@ -30,9 +30,7 @@ public static  void removeList() {
 
 运行运行将会抛如下异常：
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/h5C1ywMJ5ib1BMJQcXgqh7ib8QC8zIWjBJhcxHpsibhaalCoMeicliatTVD8fGRBGZgygF5HhLT72uWesXggicPnHcww/640?wx_fmt=png)
-
-
+![640](assets/640.png)
 
 
 

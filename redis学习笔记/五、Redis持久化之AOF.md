@@ -76,9 +76,7 @@ AOF保存的是appendonly.aof文件。
 
 
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/ba807fd18c2140418fd5031cab6d6e0d/clipboard.png)
-
-
+![clipboard](assets/clipboard.png)
 
 
 

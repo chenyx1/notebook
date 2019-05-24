@@ -6,7 +6,7 @@
 
 #### 一、Redis 高并发集群示意图
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/d6b08b7b1ab34c68b8720649b4ef7882/6f4d363ecaf.jpeg)
+![](assets/6F4D363ECAF1.jpeg)
 
 
 
@@ -72,7 +72,7 @@ redis-server  redis_cluster/9001/redis.conf redis-server  redis_cluster/9002/red
 
  /usr/local/redis-3.2.1/src/redis-trib.rb  create  --replicas  1  192.168.1.237:9001 192.168.1.237:9002  192.168.1.237:9003 192.168.1.238:9004 192.168.1.238:90015 192.168.1.238:9006
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/1a46ec2503c84541b3c730e6e0903f40/clipboard.png)
+![](assets/clipboard11.png)
 
 replicas  1  表示 自动为每一个master节点分配一个slave节点    上面有6个节点，程序会按照一定规则生成 3个master（主）3个slave(从)
 
@@ -86,7 +86,7 @@ replicas  1  表示 自动为每一个master节点分配一个slave节点    上
 
 ​    cluster info ：打印集群的信息
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/6bea3c4133ab4b8d8784418f147dacdd/clipboard.png)
+![](assets/clipboard12.png)
 
 
 
@@ -186,7 +186,7 @@ gem install redis
 
 .停止当前Redis集群各节点的服务，然后删除对应的数据文件 *.aof 和配置文件 *.conf
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/2c7ec44d9fa64ec49151dc5f6dbc148a/8f717cb9b867.png)
+![](assets/8f717cb9b86713.png)
 
 
 

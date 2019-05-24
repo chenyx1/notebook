@@ -52,4 +52,4 @@ $ ./redis-cli redis> set foo bar OK redis> get foo
 
 默认情况下redis不是以后台服务形式运行的需要将redis.conf配置文件中的
 
-![img](F:/%E5%A8%B1%E4%B9%90%E8%BD%AF%E4%BB%B6/%E6%9C%89%E9%81%93%E4%BA%91/YoudaoNote/qq0D08B995119E7E1FC4B891A9221A79F0/63e4422060934c8082e632f8fc969d3a/clipboard.png)
+![clipboard1](assets/clipboard1.png)
