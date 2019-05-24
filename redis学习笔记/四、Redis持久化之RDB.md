@@ -86,4 +86,4 @@ rdbcompression
 
 在fork的时候，将内存的数据会克隆一份，会造成大致2倍的膨胀性，此时性能需要考虑。
 
-![clipboard](assets/clipboard-1558666708203.png)
+![alt text](assets/clipboard-1558666708203.png)

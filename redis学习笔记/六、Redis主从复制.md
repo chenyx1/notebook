@@ -50,27 +50,27 @@
 
 
 
-![](assets/clipboard4-1558667091983.png)
+![alt text](assets/clipboard4-1558667091983.png)
 
    配置过程如下：
 
    (1),分别修改redis的配置文件（redis.conf）的bind指令，默认情况只能本机访问，不能远程访问。
 
-![](assets/V_5.png)
+![alt text](assets/V_5.png)
 
   （2）  两台从机分别配置主机
 
-![](assets/clipboard6.png)
+![alt text](assets/clipboard6.png)
 
  （3）用info replication 命令查看主从配置情况
 
   主机：
 
-![](assets/clipboard7.png)
+![alt text](assets/clipboard7.png)
 
 从机：
 
-![](assets/clipboard8.png)
+![alt text](assets/clipboard8.png)
 
 
 

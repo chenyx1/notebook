@@ -6,7 +6,7 @@
 
 #### 一、Redis 高并发集群示意图
 
-![](assets/6F4D363ECAF1.jpeg)
+![alt text](assets/6F4D363ECAF1.jpeg)
 
 
 
@@ -72,7 +72,7 @@ redis-server  redis_cluster/9001/redis.conf redis-server  redis_cluster/9002/red
 
  /usr/local/redis-3.2.1/src/redis-trib.rb  create  --replicas  1  192.168.1.237:9001 192.168.1.237:9002  192.168.1.237:9003 192.168.1.238:9004 192.168.1.238:90015 192.168.1.238:9006
 
-![](assets/clipboard11.png)
+![alt text](assets/clipboard11.png)
 
 replicas  1  表示 自动为每一个master节点分配一个slave节点    上面有6个节点，程序会按照一定规则生成 3个master（主）3个slave(从)
 
@@ -86,7 +86,7 @@ replicas  1  表示 自动为每一个master节点分配一个slave节点    上
 
 ​    cluster info ：打印集群的信息
 
-![](assets/clipboard12.png)
+![alt text](assets/clipboard12.png)
 
 
 
@@ -186,7 +186,7 @@ gem install redis
 
 .停止当前Redis集群各节点的服务，然后删除对应的数据文件 *.aof 和配置文件 *.conf
 
-![](assets/8f717cb9b86713.png)
+![alt text](assets/8f717cb9b86713.png)
 
 
 

@@ -32,11 +32,11 @@
 
 配置监控的主服务器信息。
 
-![clipboard2](assets/clipboard2.png)
+![alt text](assets/clipboard2.png)
 
 配置密码
 
-![clipboard3](assets/clipboard3.png)
+![alt text](assets/clipboard3.png)
 
 配置完已上信息，redis哨兵模式基本就成功了。
 

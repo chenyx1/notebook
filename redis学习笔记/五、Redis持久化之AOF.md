@@ -76,7 +76,7 @@ AOF保存的是appendonly.aof文件。
 
 
 
-![clipboard](assets/clipboard.png)
+![alt text](assets/clipboard.png)
 
 
 

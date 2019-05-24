@@ -52,4 +52,4 @@ $ ./redis-cli redis> set foo bar OK redis> get foo
 
 默认情况下redis不是以后台服务形式运行的需要将redis.conf配置文件中的
 
-![clipboard1](assets/clipboard1.png)
+![alt text](assets/clipboard1.png)
